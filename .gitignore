@@ -1,0 +1,54 @@
+# Credentials and local preferences
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+settings.json
+*_settings.json
+*.local.json
+credentials.json
+# Source audio, DAW sessions, MIDI and generated exports
+*.wav
+*.flac
+*.mp3
+*.m4a
+*.ogg
+*.aif
+*.aiff
+*.mid
+*.midi
+*.flp
+*.fst
+exports/
+Exports/
+output/
+outputs/
+Generated Sets/
+Ready Sound Sets/
+Song Exports/
+# Environments, builds, backups and logs
+.venv/
+venv/
+runtime/
+build/
+dist/
+_internal/
+_old/
+.backups/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+*.log
+*.exe
+*.dll
+*.pyd
+*.zip
+*.spec
+*.tmp
+.DS_Store
+desktop.ini
+Generated Songs/
+Dual Master Exports/
+Generated songs/
