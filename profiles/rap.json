@@ -1,0 +1,639 @@
+{
+  "schema_version": 1,
+  "id": "rap",
+  "name": "Rap / Hip-Hop",
+  "version": "1.0.0",
+  "engine": "rap",
+  "bpm": {
+    "default": 140,
+    "min": 80,
+    "max": 170
+  },
+  "scales": [
+    "minor",
+    "harmonic-minor",
+    "dorian"
+  ],
+  "meter": [
+    4,
+    4
+  ],
+  "phrase_bars": 8,
+  "chord_bars": 4,
+  "section_energy": {
+    "intro": 0.3,
+    "verse": 0.6,
+    "hook": 1,
+    "bridge": 0.35,
+    "outro": 0.25
+  },
+  "arrangements": {
+    "full": [
+      {
+        "kind": "intro",
+        "bars": 8
+      },
+      {
+        "kind": "verse",
+        "bars": 16
+      },
+      {
+        "kind": "hook",
+        "bars": 8
+      },
+      {
+        "kind": "verse",
+        "bars": 16
+      },
+      {
+        "kind": "hook",
+        "bars": 8
+      },
+      {
+        "kind": "bridge",
+        "bars": 8
+      },
+      {
+        "kind": "hook",
+        "bars": 8
+      },
+      {
+        "kind": "outro",
+        "bars": 8
+      }
+    ],
+    "compact": [
+      {
+        "kind": "intro",
+        "bars": 4
+      },
+      {
+        "kind": "verse",
+        "bars": 8
+      },
+      {
+        "kind": "hook",
+        "bars": 8
+      },
+      {
+        "kind": "verse",
+        "bars": 8
+      },
+      {
+        "kind": "hook",
+        "bars": 8
+      }
+    ],
+    "hook": [
+      {
+        "kind": "hook",
+        "bars": 4
+      },
+      {
+        "kind": "hook",
+        "bars": 4
+      },
+      {
+        "kind": "hook",
+        "bars": 4
+      },
+      {
+        "kind": "hook",
+        "bars": 4
+      }
+    ]
+  },
+  "styles": {
+    "trap": {
+      "name": "Trap",
+      "description": "Sparse dark loop, legato 808 hints and triplet/32nd hat rolls.",
+      "progressions": [
+        [
+          0,
+          5,
+          2,
+          6
+        ],
+        [
+          0,
+          3,
+          5,
+          6
+        ]
+      ],
+      "lead_octave": 72,
+      "lead_gate": 0.83,
+      "lead_velocity": 96,
+      "lead_rhythms": [
+        [
+          [
+            0,
+            0.5
+          ],
+          [
+            1.75,
+            0.25
+          ],
+          [
+            3,
+            0.75
+          ]
+        ]
+      ],
+      "kick_beats": [
+        0,
+        1.75,
+        3
+      ],
+      "kick_gate": 0.3,
+      "kick_velocity": 112,
+      "bass_beats": [
+        0.35,
+        2.1,
+        3.35
+      ],
+      "bass_gate": 0.95,
+      "bass_velocity": 90,
+      "bass_mode": "slides",
+      "bass_role": "sub",
+      "hat_step": 0.5,
+      "swing": 0,
+      "backbeat": [
+        2
+      ],
+      "chord_beats": [
+        0,
+        2
+      ],
+      "chord_gate": 0.6,
+      "extensions": 3,
+      "arp_step": 0.5,
+      "arp_density": 0.7,
+      "lead_mode": "sparse",
+      "chord_bars": 4,
+      "phrase_bars": 8,
+      "bpm": {
+        "default": 140,
+        "min": 120,
+        "max": 170
+      }
+    },
+    "drill": {
+      "name": "Drill",
+      "description": "Offbeat sliding 808s, gapped hats and a dark piano/bell loop.",
+      "progressions": [
+        [
+          0,
+          0,
+          5,
+          4
+        ],
+        [
+          0,
+          3,
+          0,
+          6
+        ]
+      ],
+      "lead_octave": 60,
+      "lead_gate": 0.83,
+      "lead_velocity": 96,
+      "lead_rhythms": [
+        [
+          [
+            0,
+            0.75
+          ],
+          [
+            0.75,
+            0.25
+          ],
+          [
+            1.5,
+            0.5
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3.5,
+            0.5
+          ]
+        ],
+        [
+          [
+            0,
+            1.5
+          ],
+          [
+            1.5,
+            0.5
+          ],
+          [
+            2,
+            0.75
+          ],
+          [
+            3,
+            0.75
+          ]
+        ]
+      ],
+      "kick_beats": [
+        0,
+        1.5,
+        3.25
+      ],
+      "kick_gate": 0.25,
+      "kick_velocity": 112,
+      "bass_beats": [
+        0.75,
+        1.875,
+        2.75,
+        3.6
+      ],
+      "bass_gate": 0.8,
+      "bass_velocity": 90,
+      "bass_mode": "slides",
+      "bass_role": "sub",
+      "hat_step": 0.5,
+      "swing": 0,
+      "backbeat": [
+        2
+      ],
+      "chord_beats": [
+        0,
+        2
+      ],
+      "chord_gate": 0.6,
+      "extensions": 3,
+      "arp_step": 0.5,
+      "arp_density": 0.7,
+      "lead_mode": "sparse",
+      "chord_bars": 4,
+      "phrase_bars": 8,
+      "bpm": {
+        "default": 142,
+        "min": 120,
+        "max": 170
+      }
+    },
+    "boom-bap": {
+      "name": "Boom Bap",
+      "description": "Swung hats, classic backbeat, jazzy sevenths and short bass.",
+      "progressions": [
+        [
+          0,
+          5,
+          2,
+          6
+        ],
+        [
+          0,
+          3,
+          5,
+          6
+        ]
+      ],
+      "lead_octave": 60,
+      "lead_gate": 0.83,
+      "lead_velocity": 96,
+      "lead_rhythms": [
+        [
+          [
+            0,
+            0.75
+          ],
+          [
+            0.75,
+            0.25
+          ],
+          [
+            1.5,
+            0.5
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3.5,
+            0.5
+          ]
+        ],
+        [
+          [
+            0,
+            1.5
+          ],
+          [
+            1.5,
+            0.5
+          ],
+          [
+            2,
+            0.75
+          ],
+          [
+            3,
+            0.75
+          ]
+        ]
+      ],
+      "kick_beats": [
+        0,
+        1.5
+      ],
+      "kick_gate": 0.16,
+      "kick_velocity": 112,
+      "bass_beats": [
+        0.25,
+        1.75,
+        3.25
+      ],
+      "bass_gate": 0.38,
+      "bass_velocity": 90,
+      "bass_mode": "short",
+      "bass_role": "bass",
+      "hat_step": 0.5,
+      "swing": 0.16,
+      "backbeat": [
+        1,
+        3
+      ],
+      "chord_beats": [
+        0,
+        2
+      ],
+      "chord_gate": 0.6,
+      "extensions": 4,
+      "arp_step": 0.5,
+      "arp_density": 0.7,
+      "lead_mode": "sparse",
+      "chord_bars": 4,
+      "phrase_bars": 8,
+      "bpm": {
+        "default": 90,
+        "min": 80,
+        "max": 100
+      }
+    },
+    "melodic-trap": {
+      "name": "Melodic Trap",
+      "description": "Half-time drums under an eight-bar sung hook and lush pads.",
+      "progressions": [
+        [
+          0,
+          5,
+          2,
+          6
+        ],
+        [
+          0,
+          3,
+          5,
+          6
+        ]
+      ],
+      "lead_octave": 72,
+      "lead_gate": 0.83,
+      "lead_velocity": 96,
+      "lead_rhythms": [
+        [
+          [
+            0,
+            0.75
+          ],
+          [
+            0.75,
+            0.25
+          ],
+          [
+            1.5,
+            0.5
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3.5,
+            0.5
+          ]
+        ],
+        [
+          [
+            0,
+            1.5
+          ],
+          [
+            1.5,
+            0.5
+          ],
+          [
+            2,
+            0.75
+          ],
+          [
+            3,
+            0.75
+          ]
+        ]
+      ],
+      "kick_beats": [
+        0,
+        1.75,
+        3
+      ],
+      "kick_gate": 0.3,
+      "kick_velocity": 112,
+      "bass_beats": [
+        0.35,
+        2.1,
+        3.35
+      ],
+      "bass_gate": 0.95,
+      "bass_velocity": 90,
+      "bass_mode": "slides",
+      "bass_role": "sub",
+      "hat_step": 0.5,
+      "swing": 0,
+      "backbeat": [
+        2
+      ],
+      "chord_beats": [
+        0,
+        2
+      ],
+      "chord_gate": 1.8,
+      "extensions": 3,
+      "arp_step": 0.5,
+      "arp_density": 0.7,
+      "lead_mode": "hook",
+      "chord_bars": 2,
+      "phrase_bars": 8,
+      "bpm": {
+        "default": 140,
+        "min": 120,
+        "max": 170
+      }
+    }
+  },
+  "automation": {
+    "section_amounts": {
+      "intro": {
+        "lead": {
+          "cutoff": 7250.0,
+          "filterType": 0,
+          "highpass": 100,
+          "pump": 0.036,
+          "width": 1.15,
+          "reverbMix": 0.08,
+          "delayMix": 0.06,
+          "output": -6
+        },
+        "bass": {
+          "cutoff": 9000.0,
+          "filterType": 0,
+          "highpass": 20,
+          "pump": 0.036,
+          "width": 0,
+          "output": -6
+        },
+        "pad": {
+          "cutoff": 5600.0,
+          "filterType": 0,
+          "highpass": 180,
+          "pump": 0.021599999999999998,
+          "width": 1.3,
+          "reverbMix": 0.15,
+          "output": -8
+        }
+      },
+      "verse": {
+        "lead": {
+          "cutoff": 11000.0,
+          "filterType": 0,
+          "highpass": 100,
+          "pump": 0.072,
+          "width": 1.15,
+          "reverbMix": 0.08,
+          "delayMix": 0.06,
+          "output": -6
+        },
+        "bass": {
+          "cutoff": 12000.0,
+          "filterType": 0,
+          "highpass": 20,
+          "pump": 0.072,
+          "width": 0,
+          "output": -6
+        },
+        "pad": {
+          "cutoff": 7700.0,
+          "filterType": 0,
+          "highpass": 180,
+          "pump": 0.043199999999999995,
+          "width": 1.3,
+          "reverbMix": 0.15,
+          "output": -8
+        }
+      },
+      "hook": {
+        "lead": {
+          "cutoff": 16000,
+          "filterType": 0,
+          "highpass": 100,
+          "pump": 0.12,
+          "width": 1.15,
+          "reverbMix": 0.08,
+          "delayMix": 0.06,
+          "output": -6
+        },
+        "bass": {
+          "cutoff": 16000,
+          "filterType": 0,
+          "highpass": 20,
+          "pump": 0.12,
+          "width": 0,
+          "output": -6
+        },
+        "pad": {
+          "cutoff": 10500,
+          "filterType": 0,
+          "highpass": 180,
+          "pump": 0.072,
+          "width": 1.3,
+          "reverbMix": 0.15,
+          "output": -8
+        }
+      },
+      "bridge": {
+        "lead": {
+          "cutoff": 7875.0,
+          "filterType": 0,
+          "highpass": 100,
+          "pump": 0,
+          "width": 1.15,
+          "reverbMix": 0.22,
+          "delayMix": 0.15,
+          "output": -6
+        },
+        "bass": {
+          "cutoff": 9500.0,
+          "filterType": 0,
+          "highpass": 20,
+          "pump": 0,
+          "width": 0,
+          "output": -6
+        },
+        "pad": {
+          "cutoff": 5950.0,
+          "filterType": 0,
+          "highpass": 180,
+          "pump": 0.0,
+          "width": 1.3,
+          "reverbMix": 0.3,
+          "output": -8
+        }
+      },
+      "outro": {
+        "lead": {
+          "cutoff": 6625.0,
+          "filterType": 0,
+          "highpass": 100,
+          "pump": 0.03,
+          "width": 1.15,
+          "reverbMix": 0.08,
+          "delayMix": 0.06,
+          "output": -6
+        },
+        "bass": {
+          "cutoff": 8500.0,
+          "filterType": 0,
+          "highpass": 20,
+          "pump": 0.03,
+          "width": 0,
+          "output": -6
+        },
+        "pad": {
+          "cutoff": 5250.0,
+          "filterType": 0,
+          "highpass": 180,
+          "pump": 0.018,
+          "width": 1.3,
+          "reverbMix": 0.15,
+          "output": -8
+        }
+      }
+    },
+    "transition_beats": 2,
+    "predrop_gap_beats": 0.25,
+    "break_pan": {
+      "lead": 0.04,
+      "bass": 0,
+      "pad": 0.1
+    }
+  }
+}

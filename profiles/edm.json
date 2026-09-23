@@ -1,0 +1,776 @@
+{
+  "schema_version": 1,
+  "id": "edm",
+  "name": "EDM / House & Trance",
+  "version": "1.0.0",
+  "engine": "edm",
+  "bpm": {
+    "default": 128,
+    "min": 118,
+    "max": 142
+  },
+  "scales": [
+    "minor",
+    "major",
+    "dorian",
+    "harmonic-minor",
+    "phrygian"
+  ],
+  "meter": [
+    4,
+    4
+  ],
+  "phrase_bars": 8,
+  "chord_bars": 2,
+  "section_energy": {
+    "intro": 0.45,
+    "build": 0.8,
+    "drop": 1,
+    "breakdown": 0.25,
+    "outro": 0.4
+  },
+  "arrangements": {
+    "full": [
+      {
+        "kind": "intro",
+        "bars": 16
+      },
+      {
+        "kind": "build",
+        "bars": 16
+      },
+      {
+        "kind": "drop",
+        "bars": 32
+      },
+      {
+        "kind": "breakdown",
+        "bars": 16
+      },
+      {
+        "kind": "build",
+        "bars": 16
+      },
+      {
+        "kind": "drop",
+        "bars": 32
+      },
+      {
+        "kind": "outro",
+        "bars": 16
+      }
+    ],
+    "compact": [
+      {
+        "kind": "intro",
+        "bars": 8
+      },
+      {
+        "kind": "build",
+        "bars": 8
+      },
+      {
+        "kind": "drop",
+        "bars": 16
+      },
+      {
+        "kind": "breakdown",
+        "bars": 8
+      },
+      {
+        "kind": "build",
+        "bars": 8
+      },
+      {
+        "kind": "drop",
+        "bars": 16
+      },
+      {
+        "kind": "outro",
+        "bars": 8
+      }
+    ],
+    "drop": [
+      {
+        "kind": "drop",
+        "bars": 16
+      }
+    ]
+  },
+  "styles": {
+    "progressive-house": {
+      "name": "Progressive House",
+      "description": "Rolling offbeats and plucks with an emotional pad breakdown.",
+      "progressions": [
+        [
+          0,
+          5,
+          2,
+          6
+        ],
+        [
+          0,
+          3,
+          5,
+          6
+        ]
+      ],
+      "lead_octave": 72,
+      "lead_gate": 0.83,
+      "lead_velocity": 96,
+      "lead_rhythms": [
+        [
+          [
+            0,
+            0.75
+          ],
+          [
+            0.75,
+            0.25
+          ],
+          [
+            1.5,
+            0.5
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3.5,
+            0.5
+          ]
+        ],
+        [
+          [
+            0,
+            1.5
+          ],
+          [
+            1.5,
+            0.5
+          ],
+          [
+            2,
+            0.75
+          ],
+          [
+            3,
+            0.75
+          ]
+        ]
+      ],
+      "kick_beats": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "kick_gate": 0.18,
+      "kick_velocity": 112,
+      "bass_beats": [
+        0.5,
+        1.5,
+        2.5,
+        3.5
+      ],
+      "bass_gate": 0.42,
+      "bass_velocity": 90,
+      "bass_mode": "offbeat",
+      "bass_role": "bass",
+      "hat_step": 0.5,
+      "swing": 0,
+      "backbeat": [
+        1,
+        3
+      ],
+      "chord_beats": [
+        0,
+        2
+      ],
+      "chord_gate": 0.6,
+      "extensions": 3,
+      "arp_step": 0.5,
+      "arp_density": 0.7,
+      "lead_mode": "hook",
+      "chord_bars": 2,
+      "phrase_bars": 8,
+      "bpm": {
+        "default": 126,
+        "min": 118,
+        "max": 142
+      }
+    },
+    "tech-house": {
+      "name": "Tech House",
+      "description": "Dry stabs, a syncopated bass groove and spoken-vocal cue hits.",
+      "progressions": [
+        [
+          0,
+          0,
+          3,
+          0
+        ]
+      ],
+      "lead_octave": 72,
+      "lead_gate": 0.83,
+      "lead_velocity": 96,
+      "lead_rhythms": [
+        [
+          [
+            0,
+            0.75
+          ],
+          [
+            0.75,
+            0.25
+          ],
+          [
+            1.5,
+            0.5
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3.5,
+            0.5
+          ]
+        ],
+        [
+          [
+            0,
+            1.5
+          ],
+          [
+            1.5,
+            0.5
+          ],
+          [
+            2,
+            0.75
+          ],
+          [
+            3,
+            0.75
+          ]
+        ]
+      ],
+      "kick_beats": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "kick_gate": 0.18,
+      "kick_velocity": 112,
+      "bass_beats": [
+        0.5,
+        1.25,
+        1.75,
+        2.5,
+        3.25
+      ],
+      "bass_gate": 0.22,
+      "bass_velocity": 90,
+      "bass_mode": "offbeat",
+      "bass_role": "bass",
+      "hat_step": 0.5,
+      "swing": 0,
+      "backbeat": [
+        1,
+        3
+      ],
+      "chord_beats": [
+        0.75,
+        2.5
+      ],
+      "chord_gate": 0.15,
+      "extensions": 3,
+      "arp_step": 0.5,
+      "arp_density": 0.25,
+      "lead_mode": "sparse",
+      "chord_bars": 2,
+      "phrase_bars": 8,
+      "breakdown_bars": 8,
+      "bpm": {
+        "default": 127,
+        "min": 118,
+        "max": 142
+      }
+    },
+    "deep-house": {
+      "name": "Deep House",
+      "description": "Warm ninths, soft sub, brushed hats and Rhodes-style melody.",
+      "progressions": [
+        [
+          0,
+          5,
+          2,
+          6
+        ],
+        [
+          0,
+          3,
+          5,
+          6
+        ]
+      ],
+      "lead_octave": 60,
+      "lead_gate": 0.83,
+      "lead_velocity": 96,
+      "lead_rhythms": [
+        [
+          [
+            0,
+            0.75
+          ],
+          [
+            0.75,
+            0.25
+          ],
+          [
+            1.5,
+            0.5
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3.5,
+            0.5
+          ]
+        ],
+        [
+          [
+            0,
+            1.5
+          ],
+          [
+            1.5,
+            0.5
+          ],
+          [
+            2,
+            0.75
+          ],
+          [
+            3,
+            0.75
+          ]
+        ]
+      ],
+      "kick_beats": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "kick_gate": 0.18,
+      "kick_velocity": 112,
+      "bass_beats": [
+        0.5,
+        1.5,
+        2.5,
+        3.5
+      ],
+      "bass_gate": 0.42,
+      "bass_velocity": 90,
+      "bass_mode": "offbeat",
+      "bass_role": "sub",
+      "hat_step": 0.5,
+      "swing": 0.08,
+      "backbeat": [
+        1,
+        3
+      ],
+      "chord_beats": [
+        0,
+        2
+      ],
+      "chord_gate": 1.4,
+      "extensions": 5,
+      "arp_step": 0.5,
+      "arp_density": 0.7,
+      "lead_mode": "hook",
+      "chord_bars": 2,
+      "phrase_bars": 8,
+      "energy_spread": 0.35,
+      "bpm": {
+        "default": 122,
+        "min": 118,
+        "max": 142
+      }
+    },
+    "uplifting-trance": {
+      "name": "Uplifting Trance",
+      "description": "Sixteen-bar hook restated over rolling bass and long arpeggios.",
+      "progressions": [
+        [
+          0,
+          5,
+          2,
+          6
+        ],
+        [
+          0,
+          3,
+          5,
+          6
+        ]
+      ],
+      "lead_octave": 72,
+      "lead_gate": 0.83,
+      "lead_velocity": 96,
+      "lead_rhythms": [
+        [
+          [
+            0,
+            0.75
+          ],
+          [
+            0.75,
+            0.25
+          ],
+          [
+            1.5,
+            0.5
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3.5,
+            0.5
+          ]
+        ],
+        [
+          [
+            0,
+            1.5
+          ],
+          [
+            1.5,
+            0.5
+          ],
+          [
+            2,
+            0.75
+          ],
+          [
+            3,
+            0.75
+          ]
+        ]
+      ],
+      "kick_beats": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "kick_gate": 0.18,
+      "kick_velocity": 112,
+      "bass_beats": [
+        0.5,
+        1.5,
+        2.5,
+        3.5,
+        0.25,
+        1.25,
+        2.25,
+        3.25
+      ],
+      "bass_gate": 0.22,
+      "bass_velocity": 90,
+      "bass_mode": "offbeat",
+      "bass_role": "bass",
+      "hat_step": 0.5,
+      "swing": 0,
+      "backbeat": [
+        1,
+        3
+      ],
+      "chord_beats": [
+        0,
+        2
+      ],
+      "chord_gate": 1.8,
+      "extensions": 3,
+      "arp_step": 0.25,
+      "arp_density": 1,
+      "lead_mode": "hook",
+      "chord_bars": 4,
+      "phrase_bars": 16,
+      "breakdown_bars": 16,
+      "bpm": {
+        "default": 138,
+        "min": 118,
+        "max": 142
+      }
+    },
+    "psy-trance": {
+      "name": "Psy Trance",
+      "description": "Kick-locked sixteenth bass with triplet turnarounds and sparse acid.",
+      "progressions": [
+        [
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      "lead_octave": 72,
+      "lead_gate": 0.83,
+      "lead_velocity": 96,
+      "lead_rhythms": [
+        [
+          [
+            0,
+            0.75
+          ],
+          [
+            0.75,
+            0.25
+          ],
+          [
+            1.5,
+            0.5
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3.5,
+            0.5
+          ]
+        ],
+        [
+          [
+            0,
+            1.5
+          ],
+          [
+            1.5,
+            0.5
+          ],
+          [
+            2,
+            0.75
+          ],
+          [
+            3,
+            0.75
+          ]
+        ]
+      ],
+      "kick_beats": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "kick_gate": 0.2,
+      "kick_velocity": 112,
+      "bass_beats": [
+        0.25,
+        0.5,
+        0.75,
+        1.25,
+        1.5,
+        1.75,
+        2.25,
+        2.5,
+        2.75,
+        3.25,
+        3.5,
+        3.75
+      ],
+      "bass_gate": 0.19,
+      "bass_velocity": 90,
+      "bass_mode": "offbeat",
+      "bass_role": "bass",
+      "hat_step": 0.5,
+      "swing": 0,
+      "backbeat": [
+        1,
+        3
+      ],
+      "chord_beats": [
+        0
+      ],
+      "chord_gate": 0.15,
+      "extensions": 3,
+      "arp_step": 0.5,
+      "arp_density": 0.25,
+      "lead_mode": "sparse",
+      "chord_bars": 2,
+      "phrase_bars": 8,
+      "bpm": {
+        "default": 140,
+        "min": 118,
+        "max": 142
+      }
+    }
+  },
+  "automation": {
+    "section_amounts": {
+      "intro": {
+        "lead": {
+          "cutoff": 9125.0,
+          "filterType": 0,
+          "highpass": 100,
+          "pump": 0.1125,
+          "width": 1.15,
+          "reverbMix": 0.08,
+          "delayMix": 0.06,
+          "output": -6
+        },
+        "bass": {
+          "cutoff": 10500.0,
+          "filterType": 0,
+          "highpass": 20,
+          "pump": 0.1125,
+          "width": 0,
+          "output": -6
+        },
+        "pad": {
+          "cutoff": 6650.0,
+          "filterType": 0,
+          "highpass": 180,
+          "pump": 0.0675,
+          "width": 1.3,
+          "reverbMix": 0.15,
+          "output": -8
+        }
+      },
+      "build": {
+        "lead": {
+          "cutoff": 13500.0,
+          "filterType": 0,
+          "highpass": 100,
+          "pump": 0.2,
+          "width": 1.15,
+          "reverbMix": 0.08,
+          "delayMix": 0.06,
+          "output": -6
+        },
+        "bass": {
+          "cutoff": 14000.0,
+          "filterType": 0,
+          "highpass": 20,
+          "pump": 0.2,
+          "width": 0,
+          "output": -6
+        },
+        "pad": {
+          "cutoff": 9100.0,
+          "filterType": 0,
+          "highpass": 180,
+          "pump": 0.12,
+          "width": 1.3,
+          "reverbMix": 0.15,
+          "output": -8
+        }
+      },
+      "drop": {
+        "lead": {
+          "cutoff": 16000,
+          "filterType": 0,
+          "highpass": 100,
+          "pump": 0.25,
+          "width": 1.15,
+          "reverbMix": 0.08,
+          "delayMix": 0.06,
+          "output": -6
+        },
+        "bass": {
+          "cutoff": 16000,
+          "filterType": 0,
+          "highpass": 20,
+          "pump": 0.25,
+          "width": 0,
+          "output": -6
+        },
+        "pad": {
+          "cutoff": 10500,
+          "filterType": 0,
+          "highpass": 180,
+          "pump": 0.15,
+          "width": 1.3,
+          "reverbMix": 0.15,
+          "output": -8
+        }
+      },
+      "breakdown": {
+        "lead": {
+          "cutoff": 6625.0,
+          "filterType": 0,
+          "highpass": 100,
+          "pump": 0,
+          "width": 1.15,
+          "reverbMix": 0.22,
+          "delayMix": 0.15,
+          "output": -6
+        },
+        "bass": {
+          "cutoff": 8500.0,
+          "filterType": 0,
+          "highpass": 20,
+          "pump": 0,
+          "width": 0,
+          "output": -6
+        },
+        "pad": {
+          "cutoff": 5250.0,
+          "filterType": 0,
+          "highpass": 180,
+          "pump": 0.0,
+          "width": 1.3,
+          "reverbMix": 0.3,
+          "output": -8
+        }
+      },
+      "outro": {
+        "lead": {
+          "cutoff": 8500.0,
+          "filterType": 0,
+          "highpass": 100,
+          "pump": 0.1,
+          "width": 1.15,
+          "reverbMix": 0.08,
+          "delayMix": 0.06,
+          "output": -6
+        },
+        "bass": {
+          "cutoff": 10000.0,
+          "filterType": 0,
+          "highpass": 20,
+          "pump": 0.1,
+          "width": 0,
+          "output": -6
+        },
+        "pad": {
+          "cutoff": 6300.0,
+          "filterType": 0,
+          "highpass": 180,
+          "pump": 0.06,
+          "width": 1.3,
+          "reverbMix": 0.15,
+          "output": -8
+        }
+      }
+    },
+    "transition_beats": 2,
+    "predrop_gap_beats": 0.25,
+    "break_pan": {
+      "lead": 0.04,
+      "bass": 0,
+      "pad": 0.1
+    }
+  }
+}
